@@ -10,6 +10,8 @@
     <version>1.0.0</version>
     <modules>
         <module>profile-learning</module>
+        <module>kudu-learning</module>
+        <module>spark-kudu</module>
     </modules>
 
     <repositories>
@@ -203,6 +205,12 @@
             <version>${config.version}</version>
         </dependency>
 
+        <!-- okhttp请求 -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.14.2</version>
+        </dependency>
     </dependencies>
 
     <build>
